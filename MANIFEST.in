@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mapleleafs *.css
+recursive-include mapleleafs *.csv
+recursive-include mapleleafs *.html
+recursive-include mapleleafs *.ico
+recursive-include mapleleafs *.js
+recursive-include mapleleafs *.json
+recursive-include mapleleafs *.md
+recursive-include mapleleafs *.png
+recursive-include mapleleafs *.py
+recursive-include mapleleafs *.svg
+recursive-include mapleleafs *.txt
+recursive-exclude mapleleafs *.pyc
